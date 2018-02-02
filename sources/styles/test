@@ -1,0 +1,71 @@
+<!--SCHEME PANEL-->
+<div class="scheme-panel">
+  <div class="scheme" id="target"></div>
+  <div class="btn-panel">
+    <table>
+      <tbody>
+        <tr>
+          <td><button class="btn-scheme-prev"><i class="ion-log-in"></i> Previous</button></td>
+          <td><button class="btn-scheme-next">Next <i class="ion-log-out"></i></button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+<!--ARCHENEMY PANEL-->
+<div class="archenemy-panel">
+  <div class="effect-box">
+    <div class="header effect-title">Archenemy</div>
+  </div>
+  <table class="table-archenemy">
+    <thead>
+      <th style="width=20%"><img src='imgs/symbols/planeswalker.png' alt='{P}' width='20' height='20'></th>
+      <th style="width=60%">
+        <div class="dropdown">
+          <div class="dropbtn" onclick="tggl()" style="text-align:center" id="trgt-deck">Scheme Deck</div>
+          <div class="dropdown-content" id="trgt-ddl">
+            <a href="#">Full List</a>
+            <a href="#">...</a>
+          </div>
+        </div>
+      </th>
+      <th style="width=20%"><img src='imgs/symbols/Planeswalk.svg' alt='{C}' width='20' height='20'></th>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td> <div class="">
+
+        </div> </td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <!-- CURRENT -->
+  <div class="effect-box">
+    <div class="effect-title" id="trgt-title">CURRENT SCHEME</div>
+  </div>
+  <div class="effect-x" id="trgt-current"></div>
+  <!-- ONGOING-->
+  <div class="effect-box">
+    <div class="effect-title">ONGOING SCHEMES</div>
+  </div>
+  <div id="trgt-ongoing"></div>
+  <!--NEW GAME-->
+  <div class="btn-panel">
+    <button class="btn-game"><i class="ion-refresh"></i> New Game</button>
+  </div>
+</div>
+<!--PLAYERS PANEL-->
+<div class="players-panel">
+  <h2>OPPONENTS</h2>
+  <div class="btn-panel">
+    <button class="btn-player"><i class="ion-ios-plus-outline"></i> New Player</button>
+  </div>
+</div>
+<!--ONGOING SCHEMES PANEL-->
+<div class="ongoing-panel">
+  <h2>ONGOING SCHEMES</h2>
+  <div class="ongoing" id="trgt-slide">
+  </div>
+</div>
